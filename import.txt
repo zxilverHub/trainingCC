@@ -1,0 +1,38 @@
+import os
+os.environ['PYTHONPATH'] += ':/content/models/research/:/content/models/research/slim/'
+
+
+%cd /content/models/research
+!protoc object_detection/protos/*.proto --python_out=.
+
+
+%cd /content/models/research
+# Ensure you are in the correct directory.
+!cp object_detection/packages/tf2/setup.py .
+
+# Install with --use-feature=in-tree-build to handle pip deprecations.
+!pip install . --use-feature=in-tree-build
+
+
+
+# The test will now pass because PYTHONPATH is set and the module is installed.
+!python /content/models/research/object_detection/builders/model_builder_tf2_test.py
+
+
+# Assuming you have a variable `label_map_pbtxt_fname` defined
+# somewhere in your code pointing to your label map file.
+# Example: label_map_pbtxt_fname = '/path/to/your/label_map.pbtxt'
+
+pipeline_fname = '/content/models/mymodel/' + base_pipeline_file
+fine_tune_checkpoint = '/content/models/mymodel/' + model_name + '/checkpoint/ckpt-0'
+
+def get_num_classes(pbtxt_fname):
+    from object_detection.utils import label_map_util
+    label_map = label_map_util.load_labelmap(pbtxt_fname)
+    categories = label_map_util.convert_label_map_to_categories(
+        label_map, max_num_classes=90, use_display_name=True)
+    category_index = label_map_util.create_category_index(categories)
+    return len(category_index.keys())
+
+num_classes = get_num_classes(label_map_pbtxt_fname)
+print('Total classes:', num_classes)

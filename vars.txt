@@ -1,0 +1,2 @@
+pipeline_file = '/content/models/mymodel/pipeline_file.config'
+model_dir = '/content/gdrive/MyDrive/my_mobilenet_ssd_checkpoints/'

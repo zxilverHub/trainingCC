@@ -1,0 +1,7 @@
+# Create a dedicated directory on your Google Drive for your data files
+!mkdir -p '/content/gdrive/My Drive/my_project_data'
+
+# Copy the TFRecord and labelmap files to that directory
+!cp /content/train.tfrecord '/content/gdrive/My Drive/my_project_data/train.tfrecord'
+!cp /content/val.tfrecord '/content/gdrive/My Drive/my_project_data/val.tfrecord'
+!cp /content/labelmap.pbtxt '/content/gdrive/My Drive/my_project_data/labelmap.pbtxt'

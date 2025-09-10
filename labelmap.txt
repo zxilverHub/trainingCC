@@ -1,0 +1,151 @@
+AED Location
+Animal Crossing
+Auditorium Area
+Biohazard
+Border Crossing
+Bus Stop
+CCTV In Operation
+Cafeteria
+Camping Site
+Carpool Parking
+Chemical Storage
+Clinic
+compost
+Conference Room
+Dead End
+EV Charging
+Elevator
+Emergency Assembly Point
+Emergency Exit
+Emergency Phone
+Entrance
+Exit
+Fire Exit
+Fire Extinguisher
+Fire Hose
+First Aid
+gas station
+Gas Station
+Hand Sanitizer Station
+Highway exit
+Hospital
+hospital
+In Case of Fire Use Stairs
+Info
+Lane Ends
+Left Turn
+Library
+local traffic only
+Lost and Found
+mainswitch
+Maintenance
+Merge Lane
+No Animals Allowed
+No Cars
+No Cat Allowed
+No Diving
+No Dog Allowed
+No Entry
+no entry
+No Entry for Bicycles
+No Flammable
+No Food or Drink
+No Horn
+No Idling
+No Littering
+No Motorcycle
+No Overtaking
+No Parking
+No Photography
+No Running
+No Smoking
+No Stopping
+No Through Road
+No Tricycle
+No Trucks
+no left turn
+No Turn Left
+No Turn Right
+No Right Turn
+no u-turn
+No U Turn
+Office
+one way
+One Way
+PWD
+Park and Ride
+Parking Area
+Parking area
+parking area
+pedestrian crossing
+Pedestrian Crossing
+picnic area
+Picnic Area
+Principal’s Office
+Quiet Zone
+Radiation
+Railroad Crossing
+Reception Area
+Recycle Bin
+rest area
+Rest Area
+Restroom
+Restroom Female
+Restroom Male
+Right Turn
+road closed
+Road Closed
+roundabout
+Roundabout
+Road Construction
+Road Work Ahead
+Save Water
+School Zone
+scenic route
+Slow Down
+Smoking Area
+Social Distance
+Speed Bump
+Speed Camera
+Stairs
+stop
+Stop Sign
+Tow Away
+two way traffic
+Train Station
+trashbin
+turn left
+Turn off lights
+turn right
+U Turn
+Use Handrail
+Use Seat Belt
+Wash Hands
+water station
+Wear Face Mask
+Wear Hard Hat
+Wear Protective Clothing
+Wear Safety Goggles
+Wet Floor
+Width Limit
+Wifi Zone
+yield
+Yield
+Minimum Speed
+Assembly Area
+Accident Prone Area
+Information Desk
+Bump
+Construction Zone Speed Limit
+Crosswind
+Dip
+Falling Rocks
+Flagger Ahead
+Left Sharp Curve
+Narrow Road
+One Lane Road Ahead
+Right Sharp Curve
+School Crossing
+Slipper When Wet
+Steep Hill
+Uneven Road
