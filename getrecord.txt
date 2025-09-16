@@ -1,4 +1,4 @@
 # This will copy your TFRecord and labelmap files back from Google Drive
-!cp '/content/gdrive/My Drive/my_project_data/train.tfrecord' /content/train.tfrecord
-!cp '/content/gdrive/My Drive/my_project_data/val.tfrecord' /content/val.tfrecord
-!cp '/content/gdrive/My Drive/my_project_data/labelmap.pbtxt' /content/labelmap.pbtxt
+!cp '/content/gdrive/My Drive/my_project_data_roadsign/train.tfrecord' /content/train.tfrecord
+!cp '/content/gdrive/My Drive/my_project_data_roadsign/val.tfrecord' /content/val.tfrecord
+!cp '/content/gdrive/My Drive/my_project_data_roadsign/labelmap.pbtxt' /content/labelmap.pbtxt

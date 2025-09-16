@@ -2,5 +2,5 @@ No Parking
 Bus Stop
 School Crossing
 Pedestrian Crossing
-Traffic Ligth
+Traffic Light
 Weight Limit
